@@ -1,0 +1,188 @@
+
+@media(max-width: 1199px){
+
+}
+
+@media(max-width: 992px){
+    .nav-part ul {
+    justify-content: center;
+    }
+    .nav-part .navlink {
+    padding: 0 20px;
+    }
+    .firsty a {
+        color: #f3eeee !important;
+    }
+    .navlink a:hover {
+        color: #f3eeee !important;
+    }
+    .navbar-nav {
+    -ms-flex-direction: row;
+    flex-direction: row;
+    } 
+
+}
+
+@media(max-width: 767px){
+    .nav-part .navlink {
+    padding: 0 15px;
+}
+    .navlink a {
+    font-size: 16px;
+    }
+    .banner h5 {
+        font-size: 28px;
+    }
+    .banner h1 {
+        font-size: 55px;
+        word-spacing: 0;
+    }
+    .event-section h2,.centerrrr h2,.tour-section h2{
+        font-size: 30px;
+        word-spacing: 0;
+    }
+    .event-effect h6 {
+        font-size: 16px;
+    }
+    .events h3 {
+        font-size: 20px;
+    }
+    .events .btn-custom,.banner .btn-custom,.tour .btn-custom{
+        font-size: 14px;
+        padding: 10px 22px !important;
+    }
+    .tour-section .row {
+        text-align: center;
+    }
+    .tour-section h2 {
+        text-align: center;
+    }
+    .hoverrr h6 {
+        font-size: 16px;
+    }
+    .mixed p {
+        font-size: 16px;
+    }
+
+}
+
+@media(max-width: 699px){
+    .mixed img {
+        height: 180px;
+        width: 300px;
+    }
+    .nav-part .navlink {
+    padding: 0 10px;
+    }
+}
+
+@media(max-width: 575px){
+    .nav-part ul {
+    background: #fb2056;
+    text-align: center;
+    }
+    .navbar-nav {
+    -ms-flex-direction: column;
+    flex-direction: column;
+    }
+   .click {
+    width: 50px;
+    height: 50px;
+    }
+    .click i {
+        left: 15px !important;
+    }
+    .banner h5 {
+        font-size: 25px;
+    }
+    .banner h1 {
+        font-size: 45px;
+    }.banner .btn-custom,.events .btn-custom {
+        padding: 10px 20px !important;
+    }
+    .banner .btn-custom {
+        font-size: 14px;
+    }
+    .event-effect::before {
+       display: none !important;
+    }
+    .event-effect::after {
+       display: none !important;
+    }
+    .event-effect h6 {
+       display: none !important;
+    }
+    .events img {
+        margin-top: 25px;
+    }
+    .hoverrr::before {
+        display: none !important;
+    }
+    .hoverrr::after {
+        display: none !important;
+    }
+    .hoverrr h6 {
+        display: none !important;
+    }
+    .upcoming-section {
+        text-align: center;
+    }
+    .madeby li {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .navlink a {
+    border: 1px solid #f3eeee;
+    border-radius: 50px;
+    margin: 5px 0;
+   }
+   .active a {
+    padding: 10px 20px !important;
+   }.nav-part .navbar {
+    padding: 5px 40px;
+   }
+}
+
+@media(max-width: 500px){
+    .event-section h2,.tour-section h2,.centerrrr h2{
+        font-size: 24px;
+    }
+    .events h3 {
+        font-size: 18px;
+    }
+    .events h3 {
+        line-height: 25px;
+    }
+    .tour p {
+        line-height: 23px;
+    }
+
+    }
+
+@media(max-width: 420px){
+    .banner .btn-custom,.events .btn-custom{
+    font-size: 12px;
+    }
+    .banner h1 {
+        font-size: 40px;
+    }
+    .banner h5 {
+        font-size: 22px;
+    }
+    .qouta-section p {
+        font-size: 14px;
+        line-height: 23px;
+    }
+    .qouta-section h6 {
+        font-size: 15px;
+        text-align: justify;
+    }
+    .events p {
+        line-height: 23px !important;
+    }
+    .events .btn-custom, .banner .btn-custom, .tour .btn-custom {
+        font-size: 12px;
+        padding: 8px 16px !important;
+    }
+
+}
